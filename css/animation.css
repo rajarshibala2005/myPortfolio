@@ -1,3 +1,24 @@
+.gradient-anime {
+  background: linear-gradient(120deg, #f6cdcd, #d1ffdd, #adb3ff);
+  animation: gradientMove 10s cubic-bezier(0.075, 0.82, 0.165, 1) infinite;
+  background-size: 200% 200%;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  35% {
+    background-position:50% 100%;
+  }
+  65% {
+    background-position:100% 50%; 
+  }
+  100% {
+    background-position:50% 0%; 
+  }
+}
+
 .fade-slide-top,
 .fade-slide-bottom {
   opacity: 0;
@@ -38,9 +59,19 @@
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   border-radius: 10px; /* Softens edges */
 }
-.visible {
+.logo-image.visible {
   transform: rotateY(360deg) scale(1.1);
 }
 .logo-image:hover {
   transform: rotateY(180deg) scale(1.1);
+}
+.aboutUs-anime {
+  background: linear-gradient(120deg, #f6cdcd, #d1ffdd, #adb3ff);
+  animation: gradientMove 10s cubic-bezier(0.075, 0.82, 0.165, 1) infinite;
+  color: #4B3F72;
+  transition: background 0.5s cubic-bezier(0.165, 0.84, 0.44, 1), color 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.aboutUs-anime.visible {
+    background: #4B3F72;
+    color: #fff;
 }

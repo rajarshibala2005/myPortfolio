@@ -8,9 +8,6 @@
     background-size: cover;
     background-position: center;
 }
-.header-btn {
-    font-size: 11px;
-}
 .header-text h1 {
     color: #4B3F72;
     font-size: 43.3px;
@@ -24,10 +21,7 @@
     color: #fff;
     font-size: 11px;
 }
-.aboutUs {
-    background: #4B3F72;
-    color: #fff;
-}
+
 .about-text h3 {
     font-size: 3.5rem;
 }
