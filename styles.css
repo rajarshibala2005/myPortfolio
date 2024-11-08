@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.header-img-item {
+    background-image: url("images/header-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header-btn {
+    font-size: 11px;
+}
+.header-text h1 {
+    color: #4B3F72;
+    font-size: 43.3px;
+}
+.header-text h2 {
+    color: #4B3F72;
+    font-size: 24px;
+}
+.header-btn {
+    background: #4B3F72;
+    color: #fff;
+    font-size: 11px;
+}
+.aboutUs {
+    background: #4B3F72;
+    color: #fff;
+}
+.about-text h3 {
+    font-size: 3rem;
+}
+.about-text p {
+    font-size: 1rem;;
+}
