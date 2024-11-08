@@ -2,11 +2,18 @@
     padding: 0;
     margin: 0;
 }
+
 .header-img-item {
+    width: 50%;
+    height: 100vh;
     background-image: url("images/header-img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+.header-text {
+    width: 50%;
+    height: 100vh;
 }
 .header-text h1 {
     color: #4B3F72;
@@ -22,6 +29,9 @@
     font-size: 11px;
 }
 
+.aboutus {
+    width: 70%;
+}
 .about-text h3 {
     font-size: 3.5rem;
 }
