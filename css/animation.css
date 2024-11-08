@@ -29,3 +29,16 @@
 .delay-2 {
   transition-delay: 0.8s;
 }
+.logo-image {
+  width: 200px;
+  transition: transform 0.8s ease;
+  transform-origin: center;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 10px; /* Softens edges */
+}
+
+.logo-image:hover {
+  transform: rotateY(180deg) scale(1.1);
+}

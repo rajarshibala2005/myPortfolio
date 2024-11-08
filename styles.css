@@ -29,8 +29,14 @@
     color: #fff;
 }
 .about-text h3 {
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 .about-text p {
     font-size: 1rem;;
+}
+.about-img {
+    perspective: 800px;
+}
+.about-img img {
+    width: 25rem;
 }
