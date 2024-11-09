@@ -3,6 +3,7 @@
     margin: 0;
 }
 
+
 .header-img-item {
     width: 50%;
     height: 100vh;
@@ -84,5 +85,29 @@
 }
 .ex-edu-right {
     width: 70%;
-    background: #4B3F72;
+    padding: 3rem 0;
+    overflow: scroll;
+}
+.ex-edu-year {
+    vertical-align: top;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 2rem;
+    width: 100px;
+    color: #4B3F72;
+}
+.ex-adu-title {
+    color: #4B3F72;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 0.4rem;
+}
+.ex-edu-subtitle {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 0.7rem;
+}
+.ex-edu-description {
+    font-size: 14px;
+    margin-bottom: 3rem;
 }

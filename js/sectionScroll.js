@@ -18,9 +18,12 @@ const observer = new IntersectionObserver(
 // Observe each section
 sections.forEach((section) => observer.observe(section));
 
-// Throttled scroll event listener
-window.addEventListener("wheel", (event) => {
-  if (scrollTimeout) return;
+// Throttled scroll event listener for the specific container
+document.querySelector(".scroll-container").addEventListener("wheel", (event) => {
+  if (scrollTimeout || isScrolling) return;
+
+  // Only handle the scroll if it's targeting our scroll container or its children
+  if (!event.target.closest(".scroll-container")) return;
 
   scrollTimeout = setTimeout(() => {
     isScrolling = true;
