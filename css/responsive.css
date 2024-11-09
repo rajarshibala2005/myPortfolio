@@ -7,13 +7,25 @@
         width: 100%;
         height: 50vh;
     }
+    .about {
+        height: 60vh;
+    }
     .aboutus {
         width: 100%;
         flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
+        justify-content: space-evenly;
+    }
+    .about-text {
+        width: 80%;
+        text-align: center;
+    }
+    .about-text h3 {
+        font-size: 2.5rem;
     }
     .about-img img {
         width: 15rem;
+    }
+    .about-img {
+        justify-content: center;
     }
 }
