@@ -22,6 +22,9 @@
     .about-text h3 {
         font-size: 2.5rem;
     }
+    .about-img {
+        padding: 1rem;
+    }
     .about-img img {
         width: 15rem;
     }
