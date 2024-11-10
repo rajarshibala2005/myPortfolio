@@ -78,14 +78,14 @@
 
 .shining-text {
   font-size: 3em;
-  font-weight: bold;
+  font-weight: 300;
   font-family: Arial, sans-serif;
-  background: linear-gradient(120deg, #3c2192, #aaa, #3c2192);
+  background: linear-gradient(120deg, #4B3F72, #3c00ff, #4B3F72);
   background-size: 200%; /* Extend the background size for animation */
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text; /* For Safari support */
-  animation: shine 5s linear infinite; /* Infinite shine animation */
+  animation: shine 10s linear infinite; /* Infinite shine animation */
 }
 
 /* Keyframes for the shine effect */
