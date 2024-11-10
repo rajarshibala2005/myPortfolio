@@ -75,3 +75,25 @@
     background: #4B3F72;
     color: #fff;
 }
+
+.shining-text {
+  font-size: 3em;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(120deg, #3c2192, #aaa, #3c2192);
+  background-size: 200%; /* Extend the background size for animation */
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text; /* For Safari support */
+  animation: shine 5s linear infinite; /* Infinite shine animation */
+}
+
+/* Keyframes for the shine effect */
+@keyframes shine {
+  0% {
+    background-position: 200% 0; /* Start with the gradient positioned to the right */
+  }
+  100% {
+    background-position: -200% 0; /* Move the gradient across the text to the left */
+  }
+}

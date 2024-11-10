@@ -63,6 +63,10 @@
     justify-content: end;
 }
 
+.about-img img {
+    width: 70%;
+}
+
 .exedu {
     box-sizing: border-box;
     width: 100%;
