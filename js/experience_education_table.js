@@ -1,7 +1,19 @@
     const educationData = [
         {
+            year: "2024",
+            title: "PERSUING BACHELOR'S OF COMMPUTER APPLICATION",
+            school: "PARUL UNIVERSITY",
+            description: "Currently, I am in my 1st semester, learning the fundamentals of computer systems, including how computing works at a fundamental level, how the CPU interacts with the OS and software applications, and concepts like classes and objects (OOP). Additionally, I'm focusing on writing optimized code."
+        },
+        {
+            year: "2024",
+            title: "PASSED 12TH STANDARD WITH 59% MARKS FROM STATE BOARD",
+            school: "BIDHANNAGAR GOVT. HIGH SCHOOL",
+            description: "Passed 12th standard in the Arts stream with Bengali as the first language, English as the second language, and elective subjects including Computer Application, History, Political Science, and Geography."
+        },
+        {
             year: "2023",
-            title: "LEARN FRONTEBD WEB DEVELOPMENT, REACTJS, mySQL ",
+            title: "LEARN FRONTEBD WEB DEVELOPMENT, REACTJS, mySQL",
             school: "OFFICIAL DOCUMENTATION, OPEN SOURCE, VIDEO TUTORIALS",
             description: "Gained hands-on experience in frontend web development with frameworks like ReactJS, focusing on building interactive and responsive websites, while also learning MySQL for effective database management and integration with web applications."
         },
