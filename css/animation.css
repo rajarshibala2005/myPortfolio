@@ -43,6 +43,20 @@
   transform: translateX(0);
 }
 
+.skill-profie-right {
+  width: 70%;
+  height: 100vh;
+  background: #4B3F72;
+  transform: translateX(100%);
+  opacity: 0;
+  transition: transform 0.6s ease-out, opacity 0.6s ease-out;
+}
+
+.visible.slide-left_2_right {
+  transform: translateX(0);
+  opacity: 1;
+}
+
 .delay-1 {
   transition-delay: 0.4s;
 }

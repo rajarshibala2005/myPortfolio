@@ -41,7 +41,7 @@ document.querySelector(".scroll-container").addEventListener("wheel", (event) =>
     // Reset flags after scrolling finishes
     setTimeout(() => {
       isScrolling = false;
-    }, 1000); // Adjust duration based on scroll duration
+    }, 600); // Adjust duration based on scroll duration
 
     scrollTimeout = null;
   }, 600); // Adjust timeout duration as needed
