@@ -85,7 +85,7 @@
 }
 
 .ex-edu-left {
-    width: 20%;
+    width: auto;
     height: auto;
     color: #4B3F72;
 }
@@ -137,7 +137,7 @@
 }
 .skill-profie-left h3 {
     color: #4B3F72;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
 }
 

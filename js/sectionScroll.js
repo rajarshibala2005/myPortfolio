@@ -44,5 +44,5 @@ document.querySelector(".scroll-container").addEventListener("wheel", (event) =>
     }, 600); // Adjust duration based on scroll duration
 
     scrollTimeout = null;
-  }, 600); // Adjust timeout duration as needed
+  }, 200); // Adjust timeout duration as needed
 });
