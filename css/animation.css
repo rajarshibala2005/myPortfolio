@@ -8,14 +8,17 @@
   0% {
     background-position: 0% 50%;
   }
+
   35% {
-    background-position:50% 100%;
+    background-position: 50% 100%;
   }
+
   65% {
-    background-position:100% 50%; 
+    background-position: 100% 50%;
   }
+
   100% {
-    background-position:50% 0%; 
+    background-position: 50% 0%;
   }
 }
 
@@ -35,12 +38,21 @@
 .fade-slide-left {
   opacity: 0;
   transform: translateX(-20px);
-  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  transition: opacity 0.2s ease-out, transform 0.6s ease-out;
 }
 
-.fade-slide-left.visible{
+.fade-slide-left.visible {
   opacity: 1;
   transform: translateX(0);
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.fade-in.visible {
+  opacity: 1;
 }
 
 .skill-profie-right {
@@ -64,6 +76,23 @@
 .delay-2 {
   transition-delay: 0.8s;
 }
+
+.delay-3 {
+  transition-delay: 1.2s;
+}
+
+.delay-4 {
+  transition-delay: 1.6s;
+}
+
+.delay-5 {
+  transition-delay: 2s;
+}
+
+.delay-6 {
+  transition-delay: 2.4s;
+}
+
 .logo-image {
   width: 200px;
   transition: transform 0.8s ease;
@@ -71,23 +100,28 @@
   transform-style: preserve-3d;
   cursor: pointer;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  border-radius: 10px; /* Softens edges */
+  border-radius: 10px;
+  /* Softens edges */
 }
+
 .logo-image.visible {
   transform: rotateY(360deg) scale(1.1);
 }
+
 .logo-image:hover {
   transform: rotateY(180deg) scale(1.1);
 }
+
 .aboutUs-anime {
   background: linear-gradient(120deg, #f6cdcd, #d1ffdd, #adb3ff);
   animation: gradientMove 10s cubic-bezier(0.075, 0.82, 0.165, 1) infinite;
   color: #4B3F72;
   transition: background 0.5s cubic-bezier(0.165, 0.84, 0.44, 1), color 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
+
 .aboutUs-anime.visible {
-    background: #4B3F72;
-    color: #fff;
+  background: #4B3F72;
+  color: #fff;
 }
 
 .shining-text {
@@ -95,19 +129,25 @@
   font-weight: 300;
   font-family: Arial, sans-serif;
   background: linear-gradient(120deg, #4B3F72, #3c00ff, #4B3F72);
-  background-size: 200%; /* Extend the background size for animation */
+  background-size: 200%;
+  /* Extend the background size for animation */
   color: transparent;
   background-clip: text;
-  -webkit-background-clip: text; /* For Safari support */
-  animation: shine 10s linear infinite; /* Infinite shine animation */
+  -webkit-background-clip: text;
+  /* For Safari support */
+  animation: shine 10s linear infinite;
+  /* Infinite shine animation */
 }
 
 /* Keyframes for the shine effect */
 @keyframes shine {
   0% {
-    background-position: 200% 0; /* Start with the gradient positioned to the right */
+    background-position: 200% 0;
+    /* Start with the gradient positioned to the right */
   }
+
   100% {
-    background-position: -200% 0; /* Move the gradient across the text to the left */
+    background-position: -200% 0;
+    /* Move the gradient across the text to the left */
   }
 }

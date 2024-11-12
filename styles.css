@@ -93,7 +93,7 @@
 .ex-edu-right {
     width: 70%;
     padding: 3rem 0;
-    overflow: scroll;
+    overflow-y: scroll;
 }
 
 .ex-edu-year {
@@ -138,5 +138,35 @@
 .skill-profie-left h3 {
     color: #4B3F72;
     font-size: 24px;
+    font-weight: bold;
+}
+
+.skill-profie-right {
+    width: 70%;
+    height: 100vh;
+    background: #4B3F72;
+    padding: 5% 10%;
+    color: #e6e1fa;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+.skill-profie-right div ul {
+    list-style: none;
+    margin-bottom: 40px;
+}
+  
+.skill-profie-right div h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.skill-profie-right div ul li {
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.skill-profie-right div ul li strong {
     font-weight: bold;
 }
