@@ -159,14 +159,18 @@
 }
   
 .skill-profie-right div h4 {
-    font-size: 16px;
-    font-weight: 300;
+    font-size: 24px;
+    font-weight: bold;
     margin-bottom: 20px;
 }
 .skill-profie-right div ul li {
     line-height: 20px;
     margin-bottom: 10px;
+    font-size: 12px;
 }
 .skill-profie-right div ul li strong {
+    text-decoration: none;
     font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 18px;
 }
