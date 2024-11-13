@@ -142,6 +142,7 @@
 }
 
 .skill-profie-right {
+    display: none;
     width: 70%;
     height: 100vh;
     background: #4B3F72;
@@ -151,6 +152,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
   
 .skill-profie-right div ul {
