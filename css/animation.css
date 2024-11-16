@@ -48,7 +48,7 @@
 
 .fade-in {
   opacity: 0;
-  transition: opacity 0.2s ease-in;
+  transition: opacity 0.5s cubic-bezier(0.445, 0.05, 0.55, 0.95);
 }
 
 .fade-in.visible {

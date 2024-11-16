@@ -92,8 +92,12 @@
 
 .ex-edu-right {
     width: 70%;
-    padding: 3rem 0;
-    overflow-y: scroll;
+    height: 80vh;
+    padding: 3rem;
+    overflow-y: auto;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    scroll-behavior: smooth;
 }
 
 .ex-edu-year {
