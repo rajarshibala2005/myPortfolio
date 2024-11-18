@@ -10,15 +10,15 @@
   }
 
   35% {
-    background-position: 50% 100%;
-  }
-
-  65% {
     background-position: 100% 50%;
   }
 
+  65% {
+    background-position: 50% 100%;
+  }
+
   100% {
-    background-position: 50% 0%;
+    background-position: 0% 50%;
   }
 }
 
@@ -117,19 +117,53 @@
 }
 
 .aboutUs-anime.visible {
-  background: linear-gradient(120deg, #4B3F72, #60538a, #4B3F72);
   color: #fff;
-  animation: leftTop-rightBottom 1s cubic-bezier(0.075, 0.82, 0.165, 1) infinite;
-  background-size: contain;
+  background: #4B3F72;
 }
 
-@keyframes leftTop-rightBottom {
+@keyframes reflectionSlide {
   0% {
-    background-position: 0% 50%;
+    background-position: 100%;
+  }
+
+  10% {
+    background-position: 90%;
+  }
+
+  20% {
+    background-position: 80%;
+  }
+
+  30% {
+    background-position: 70%;
+  }
+
+  40% {
+    background-position: 60%;
+  }
+
+  50% {
+    background-position: 50%;
+  }
+
+  60% {
+    background-position: 40%;
+  }
+
+  70% {
+    background-position: 30%;
+  }
+
+  80% {
+    background-position: 20%;
+  }
+
+  90% {
+    background-position: 10%;
   }
 
   100% {
-    background-position: 50% 100%;
+    background-position: 0%;
   }
 }
 

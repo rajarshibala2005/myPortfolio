@@ -9,11 +9,20 @@
 .header-img-item {
     width: 50%;
     height: 100vh;
-    background-image: url("images/header-img.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #000;
 }
+
+  .dark-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.2;
+  }
+
 
 .header-text {
     width: 50%;
