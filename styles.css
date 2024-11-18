@@ -187,3 +187,18 @@
 .project-col p {
     font-size: 18px;
 }
+/* Horizontal Scrolling Enhancements */
+#scroll-container {
+    overflow-x: auto; /* Horizontal scrolling */
+    scroll-behavior: smooth; /* Smooth scrolling */
+  }
+  
+  ::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for cleaner look */
+  }
+  
+  /* Optional: Add spacing between project cards */
+  #scroll-container .col-10 {
+    flex: 0 0 auto; /* Prevent shrinking */
+  }
+  
