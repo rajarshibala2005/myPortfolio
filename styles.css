@@ -211,3 +211,6 @@
     flex: 0 0 auto; /* Prevent shrinking */
   }
   
+  footer {
+    background: #4B3F72;
+  }
