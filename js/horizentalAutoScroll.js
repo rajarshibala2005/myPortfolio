@@ -1,5 +1,5 @@
 function setupAutoHorizontalScroll() {
-  const scrollContainer = document.getElementById("scroll-container");
+  const scrollContainer = document.getElementById("project-details");
   const items = scrollContainer.querySelectorAll(".col-10");
   const itemWidth = items[0].offsetWidth; // Get the width of one item
   let currentIndex = 0; // Track the current visible element

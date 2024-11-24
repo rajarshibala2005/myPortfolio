@@ -34,19 +34,19 @@ const educationData = [
 // Function to render the education table dynamically
 function renderEducationTable(data) {
     const table = document.createElement('table');
-    
+
     data.forEach(entry => {
         const row = document.createElement('tr');
-        
-        row.innerHTML = 
+
+        row.innerHTML =
             `<td class="ex-edu-year">${entry.year}</td>
             <td>
                 <div class="ex-adu-title">${entry.title}</div>
                 <div class="ex-edu-subtitle">${entry.school}</div>
                 <div class="ex-edu-description">${entry.description}</div>
             </td>`
-        ;
-        
+            ;
+
         table.appendChild(row);
     });
 
@@ -55,4 +55,51 @@ function renderEducationTable(data) {
 
 renderEducationTable(educationData);
 
+const projectDetails = [
+    {
+        image: "images/project3.png",
+        title: "STONE PAPER SCISSOR",
+        description: "A Rock-Paper-Scissors game, developed to enhance my JavaScript skills. This interactive project features a clean interface and dynamic gameplay logic, providing an engaging user experience."
+    },
+    {
+        image: "images/project2.png",
+        title: "RATHI-RAJ STUDIO",
+        description: "Rath Raj Studio is a website I developed to refine my skills, featuring a modern design and seamless functionality. Built using HTML, CSS, and JavaScript, it demonstrates my proficiency in web development and attention to detail."
+    },
+    {
+        image: "images/project2.png",
+        title: "RATHI-RAJ STUDIO",
+        description: "Rath Raj Studio is a website I developed to refine my skills, featuring a modern design and seamless functionality. Built using HTML, CSS, and JavaScript, it demonstrates my proficiency in web development and attention to detail."
+    },
+    {
+        image: "images/project2.png",
+        title: "RATHI-RAJ STUDIO",
+        description: "Rath Raj Studio is a website I developed to refine my skills, featuring a modern design and seamless functionality. Built using HTML, CSS, and JavaScript, it demonstrates my proficiency in web development and attention to detail."
+    },
+    {
+        image: "images/project1.png",
+        title: "TIC TAC TOE",
+        description: "A digital Tic Tac Toe game built during my JavaScript course, featuring responsive design and seamless two-player gameplay. Developed with HTML, CSS, and JavaScript to showcase dynamic updates and game logic."
+    }
+];
 
+function renderprojectdetails(data) {
+
+    const div = document.getElementById('project-details');
+
+    data.forEach(entry => {
+        const row = document.createElement('div');
+        row.classList.add('col-10', 'col-md-6', 'col-lg-4', 'd-flex', 'flex-column', 'align-items-center', 'px-3');
+
+        row.innerHTML =
+            `          
+            <img src=${entry.image} class="img-fluid col-8 rounded-circle mb-3 border border-dark" alt="Project 1">
+            <h5 class="text-center">${entry.title}</h5>
+            <p class="text-center">${entry.description}</p>`
+            ;
+
+        div.appendChild(row);
+    });
+}
+
+renderprojectdetails(projectDetails);
