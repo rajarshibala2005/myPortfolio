@@ -46,3 +46,8 @@ document.querySelector(".scroll-container").addEventListener("wheel", (event) =>
     scrollTimeout = null;
   }, 200); // Adjust timeout duration as needed
 });
+
+function scrollToSection(sectionId) {
+  const section = document.getElementById(sectionId);
+  section.scrollIntoView({ behavior: 'smooth' });
+}

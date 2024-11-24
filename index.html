@@ -18,7 +18,7 @@
 
 <body class="scroll-container">
   <header>
-    <div class="section header d-flex w-100 vh-100">
+    <div class="section header d-flex w-100 vh-100" id="topScetion">
       <div class="header-img-item">
         <video autoplay loop muted class="dark-video">
           <source src="videos/stable--4-2024-11-18T09_07_28Z.mp4" type="video/mp4">
@@ -28,7 +28,7 @@
       <div class="header-text gradient-anime d-flex flex-column justify-content-center align-items-center">
         <h1 class="fade-slide-top text-center">Rajarshi Bala</h1>
         <h2 class="fade-slide-top delay-1 text-center">BCA Online Student</h2>
-        <button class="header-btn px-5 py-2 mt-4 rounded-1 fade-slide-bottom delay-2">Reach out</button>
+        <button class="header-btn px-5 py-2 mt-4 rounded-1 fade-slide-bottom delay-2" onclick="scrollToSection('reachOutSection')">Reach out</button>
       </div>
     </div>
   </header>
@@ -109,42 +109,42 @@
       <h4 class="fade-in text-center fs-1 py-5 text-primary">My Projects</h4>
       <div id="scroll-container" class="row flex-row flex-nowrap overflow-auto mx-1">
         <div class="col-10 col-md-6 col-lg-4 d-flex flex-column align-items-center px-3">
-          <img src="images/project1.png" class="img-fluid col-8 rounded-circle mb-3" alt="Project 1">
+          <img src="images/project1.png" class="img-fluid col-8 rounded-circle mb-3 border border-dark" alt="Project 1">
           <h5 class="text-center">Tic Tac Toe</h5>
           <p class="text-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere optio repellat...
           </p>
         </div>
         <div class="col-10 col-md-6 col-lg-4 d-flex flex-column align-items-center px-3">
-          <img src="images/project2.png" class="img-fluid col-8 rounded-circle mb-3" alt="Project 2">
+          <img src="images/project2.png" class="img-fluid col-8 rounded-circle mb-3 border border-dark" alt="Project 2">
           <h5 class="text-center">Photography Studio</h5>
           <p class="text-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere optio repellat...
           </p>
         </div>
         <div class="col-10 col-md-6 col-lg-4 d-flex flex-column align-items-center px-3">
-          <img src="images/project3.png" class="img-fluid col-8 rounded-circle mb-3" alt="Project 3">
+          <img src="images/project3.png" class="img-fluid col-8 rounded-circle mb-3 border border-dark" alt="Project 3">
           <h5 class="text-center">Rock-Paper-Scissors Game</h5>
           <p class="text-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere optio repellat...
           </p>
         </div>
         <div class="col-10 col-md-6 col-lg-4 d-flex flex-column align-items-center px-3">
-          <img src="images/project1.png" class="img-fluid col-8 rounded-circle mb-3" alt="Project 1">
+          <img src="images/project1.png" class="img-fluid col-8 rounded-circle mb-3 border border-dark" alt="Project 1">
           <h5 class="text-center">Tic Tac Toe</h5>
           <p class="text-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere optio repellat...
           </p>
         </div>
         <div class="col-10 col-md-6 col-lg-4 d-flex flex-column align-items-center px-3">
-          <img src="images/project2.png" class="img-fluid col-8 rounded-circle mb-3" alt="Project 2">
+          <img src="images/project2.png" class="img-fluid col-8 rounded-circle mb-3 border border-dark" alt="Project 2">
           <h5 class="text-center">Photography Studio</h5>
           <p class="text-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere optio repellat...
           </p>
         </div>
         <div class="col-10 col-md-6 col-lg-4 d-flex flex-column align-items-center px-3">
-          <img src="images/project3.png" class="img-fluid col-8 rounded-circle mb-3" alt="Project 3">
+          <img src="images/project3.png" class="img-fluid col-8 rounded-circle mb-3 border border-dark" alt="Project 3">
           <h5 class="text-center">Rock-Paper-Scissors Game</h5>
           <p class="text-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere optio repellat...
@@ -154,17 +154,17 @@
     </div>
   </section>
   <footer>
-    <div class="section col-12 col-lg-9 vh-auto h-fullscreen m-auto">
+    <div class="section col-12 col-lg-9 vh-auto h-fullscreen m-auto" id="reachOutSection">
       <div class="h-100 d-flex d-lg-flex flex-column flex-lg-row align-items-center justify-content-between">
         <div class="col-12 col-lg-4 d-lg-flex align-items-lg-center">
-          <img src="images/footer-img.jpg" alt="images" class="col-12 mx-auto fade-slide-left">
+          <img src="images/footer-img.jpg" alt="images" class="col-12 mx-auto fade-slide-left border border-light">
         </div>
         <div class="col-12 col-lg-7 text-light py-5 px-4" 1>
           <h5 class="fs-1 pb-5 fade-slide-left delay-1">Reach Out</h5>
-          <p class="fade-slide-left delay-2">Rajarshi Bala</p>
-          <p class="pb-5 fade-slide-left delay-2">balarajarshi@gmail.com</p>
-          <p class="fade-slide-left delay-3">Connect with me</p>
-          <div class="d-flex align-items-center pb-5 fade-slide-left delay-3">
+          <p class="fade-slide-left delay-1">Rajarshi Bala</p>
+          <p class="pb-5 fade-slide-left delay-1">balarajarshi@gmail.com</p>
+          <p class="fade-slide-left delay-1">Connect with me</p>
+          <div class="d-flex align-items-center pb-5 fade-slide-left delay-1">
             <a href="https://www.facebook.com/profile.php?id=100008834976973" target="_blank"><i
                 class="fa-brands fa-facebook fs-3 me-3 text-decoration-none text-light"></i></a>
             <a href="https://www.instagram.com/ami_rajarshi14/" target="_blank"><i
@@ -173,7 +173,7 @@
                 class="fa-brands fa-linkedin-in fs-3 me-3 text-decoration-none text-light"></i></a>
             <a href="" target="_blank"> <i class="fa-brands fa-whatsapp fs-3 text-decoration-none text-light"></i></a>
           </div>
-          <button class="btn-light fade-slide-top delay-4">Back to top</button>
+          <button class="btn-light fade-slide-top delay-1" onclick="scrollToSection('topScetion')">Back to top</button>
         </div>
       </div>
     </div>
