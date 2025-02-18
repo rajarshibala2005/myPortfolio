@@ -57,29 +57,28 @@ renderEducationTable(educationData);
 
 const projectDetails = [
     {
+        link: "https://rajarshibala2005.github.io/Rock-paper-and-scussor/",
         image: "images/project3.png",
         title: "STONE PAPER SCISSOR",
         description: "A Rock-Paper-Scissors game, developed to enhance my JavaScript skills. This interactive project features a clean interface and dynamic gameplay logic, providing an engaging user experience."
     },
     {
+        link: "https://rajarshibala2005.github.io/sample_website/",
         image: "images/project2.png",
         title: "RATHI-RAJ STUDIO",
         description: "Rath Raj Studio is a website I developed to refine my skills, featuring a modern design and seamless functionality. Built using HTML, CSS, and JavaScript, it demonstrates my proficiency in web development and attention to detail."
     },
     {
-        image: "images/project2.png",
-        title: "RATHI-RAJ STUDIO",
-        description: "Rath Raj Studio is a website I developed to refine my skills, featuring a modern design and seamless functionality. Built using HTML, CSS, and JavaScript, it demonstrates my proficiency in web development and attention to detail."
-    },
-    {
-        image: "images/project2.png",
-        title: "RATHI-RAJ STUDIO",
-        description: "Rath Raj Studio is a website I developed to refine my skills, featuring a modern design and seamless functionality. Built using HTML, CSS, and JavaScript, it demonstrates my proficiency in web development and attention to detail."
-    },
-    {
+        link: "https://rajarshibala2005.github.io/Tic-Tac-Toe/",
         image: "images/project1.png",
         title: "TIC TAC TOE",
         description: "A digital Tic Tac Toe game built during my JavaScript course, featuring responsive design and seamless two-player gameplay. Developed with HTML, CSS, and JavaScript to showcase dynamic updates and game logic."
+    },
+    {
+        link: "https://rajarshibala2005.github.io/swiftcart/",
+        image: "images/project4.png",
+        title: "SwiftCart",
+        description: "SwiftCart is a responsive e-commerce site built for my BCA 1st semester project using HTML, CSS, Bootstrap, and JavaScript, showcasing my front-end skills with a clean UI, responsive design, and interactive features."
     }
 ];
 
@@ -93,9 +92,9 @@ function renderprojectdetails(data) {
 
         row.innerHTML =
             `          
-            <img src=${entry.image} class="img-fluid col-8 rounded-circle mb-3 border border-dark" alt="Project 1">
+            <a href=${entry.link} target="blank" class="d-flex flex-column align-items-center text-decoration-none text-dark"><img src=${entry.image} class="img-fluid col-8 rounded-circle mb-3 border border-dark" alt="Project 1">
             <h5 class="text-center">${entry.title}</h5>
-            <p class="text-center">${entry.description}</p>`
+            <p class="text-center lh-lg">${entry.description}</p></a>`
             ;
 
         div.appendChild(row);
