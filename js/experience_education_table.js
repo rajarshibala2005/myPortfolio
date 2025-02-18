@@ -92,7 +92,7 @@ function renderprojectdetails(data) {
 
         row.innerHTML =
             `          
-            <a href=${entry.link} target="blank" class="d-flex flex-column align-items-center text-decoration-none text-dark"><img src=${entry.image} class="img-fluid col-8 rounded-circle mb-3 border border-dark" alt="Project 1">
+            <a href=${entry.link} target="blank" class="d-flex flex-column align-items-center text-decoration-none text-dark projrctcard"><img src=${entry.image} class="img-fluid col-8 rounded-circle mb-3 border border-dark" alt="Project 1">
             <h5 class="text-center">${entry.title}</h5>
             <p class="text-center lh-lg">${entry.description}</p></a>`
             ;
